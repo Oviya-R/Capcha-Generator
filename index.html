@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capcha-Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>CAPTCHA GENERATOR</h2>
+
+        <div class="captcha-box">
+            <span id="captcha"></span>
+            <button onclick="generateCaptcha()">↻</button>
+        </div>
+
+        <input type="text" id="input" placeholder="Enter CAPTCHA" />
+        <button onclick="validateCaptcha()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
